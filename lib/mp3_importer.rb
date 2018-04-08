@@ -8,7 +8,7 @@ class MP3Importer
   end
  binding.pry
   def files
-  @files = @path.Dir
+  @files = @path.Dir.entries
   end
 
 end
