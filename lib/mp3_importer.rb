@@ -15,7 +15,7 @@ class MP3Importer
 
   def import
     self.files.each do |file|
-
+  binding.pry
     end
     #binding.pry
     #Artist.save
