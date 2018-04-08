@@ -13,6 +13,7 @@ class MP3Importer
   end
 
   def import
+    imports = 
     self.files.grep(/*\.mp3$/)
     #self.files.each{ |file| Artist.find_or_create_by_name(file) }
     #binding.pry
