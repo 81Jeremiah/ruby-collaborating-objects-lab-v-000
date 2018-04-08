@@ -12,4 +12,7 @@ class MP3Importer
   @files.select{ |file| file.include?(".mp3")}
   end
 
+  def import
+
+  end
 end
