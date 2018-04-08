@@ -9,9 +9,6 @@ class Artist
     @songs = []
   end
 
-  def songs
-    @songs
-  end
   def print_songs
     @songs.each do |song| song.name
     puts "#{song.name}"
@@ -24,7 +21,7 @@ class Artist
   def self.find_or_create_by_name(name)
    self.all.detect{|artist| artist.name == name} || self.new(name)
     #binding.pry
-  
+
   end
 
   def save
