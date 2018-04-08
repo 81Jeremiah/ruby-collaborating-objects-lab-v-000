@@ -19,7 +19,6 @@ class MP3Importer
     Artist.all << song.artist unless Artist.all.include?(song.artist)
   #binding.pry
     end
-    #binding.pry
-    #Artist.save
+    
   end
 end
