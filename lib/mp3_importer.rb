@@ -15,6 +15,6 @@ class MP3Importer
   def import
     self.files.each{ |file| Artist.find_or_create_by_name(file) }
     #binding.pry
-    Artist.save
+    #Artist.save
   end
 end
