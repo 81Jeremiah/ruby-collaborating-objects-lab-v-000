@@ -1,3 +1,5 @@
+bindin
+
 class MP3Importer
   attr_accessor :path
 
@@ -6,7 +8,7 @@ class MP3Importer
   end
 
   def files
-  
+  @files = @path.Dir
   end
 
 end
